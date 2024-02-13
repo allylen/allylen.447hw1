@@ -15,7 +15,7 @@ h1 {
     left: 50%;
     top: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-730%, -700%);
+    transform: translate(-570%, -700%);
 }
 
 /*Styling for the Button*/
@@ -34,7 +34,7 @@ button {
     left: 50%;
     top: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-378%, -240%);
+    transform: translate(-250%, -240%);
 }
 button:hover{
     background-color: beige;
@@ -43,7 +43,7 @@ button:hover{
 
 /* Container Styling */
 .cover {
-    width: 950px;
+    width: 1100px;
     height: 600px;
     background: #b58fe773;
     margin-top: 50px;
