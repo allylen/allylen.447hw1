@@ -2,13 +2,20 @@ body {
     background-image: url("hw1back2.jpg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     
 }
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 200%;
     color:rgb(24, 31, 66);
-    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-730%, -700%);
 }
 
 /*Styling for the Button*/
@@ -23,54 +30,57 @@ button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
     margin: 0;
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -500%);
+    transform: translate(-378%, -240%);
 }
 button:hover{
     background-color: beige;
     color:rgb(24, 31, 66);
 }
 
-/* Picture Styling and Position */
-.bear {
-    border-radius: 40%;
-    border: solid 5px rgb(24, 31, 66);
-    position: relative;
-    left: 50%;
-    top: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-140%, 0%);
-}
-.bear:hover {
-    opacity: .3;
-
+/* Container Styling */
+.cover {
+    width: 950px;
+    height: 600px;
+    background: #b58fe773;
+    margin-top: 50px;
+    display: flex;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 
-.Me {
-    border-radius: 40%;
-    border: solid 5px rgb(24, 31, 66);
-    position: relative;
-    left: 50%;
-    top: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -10%);
+.box {
+    margin: 5px;
+    width: 800px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.Me:hover {
-    opacity: .3;
+.box1 {
+    margin: 5px;
+    width: 800px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-
-.pottery {
+.box2 {
+    margin: 5px;
+    width: 800px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 400px;
+    display: flex;
     border-radius: 20%;
-    border: solid 5px beige;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, 25%);
-}
-.pottery:hover {
-    opacity: .3;
+    border: solid 3px rgb(24, 31, 66);
 }
