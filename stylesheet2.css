@@ -31,3 +31,30 @@ button:hover{
     background-color: beige;
     color:rgb(24, 31, 66);
 }
+.bear {
+    border-radius: 40%;
+    border: solid 5px rgb(24, 31, 66);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-237%, 10%);
+}
+.Me {
+    border-radius: 40%;
+    border: solid 5px rgb(24, 31, 66);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(10%, -10%);
+}
+.pottery {
+    border-radius: 20%;
+    border: solid 5px beige;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-200%, 30%);
+}
