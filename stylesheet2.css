@@ -10,6 +10,8 @@ h1 {
     color:rgb(24, 31, 66);
     text-align: center;
 }
+
+/*Styling for the Button*/
 button {
     background-color: rgb(24, 31, 66);
     color: beige;
@@ -31,6 +33,8 @@ button:hover{
     background-color: beige;
     color:rgb(24, 31, 66);
 }
+
+/* Picture Styling and Position */
 .bear {
     border-radius: 40%;
     border: solid 5px rgb(24, 31, 66);
@@ -38,8 +42,13 @@ button:hover{
     left: 50%;
     top: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-237%, 10%);
+    transform: translate(-140%, 0%);
 }
+.bear:hover {
+    opacity: .3;
+
+}
+
 .Me {
     border-radius: 40%;
     border: solid 5px rgb(24, 31, 66);
@@ -47,8 +56,12 @@ button:hover{
     left: 50%;
     top: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(10%, -10%);
+    transform: translate(-50%, -10%);
 }
+.Me:hover {
+    opacity: .3;
+}
+
 .pottery {
     border-radius: 20%;
     border: solid 5px beige;
@@ -56,5 +69,8 @@ button:hover{
     left: 50%;
     top: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-200%, 30%);
+    transform: translate(-50%, 25%);
+}
+.pottery:hover {
+    opacity: .3;
 }
