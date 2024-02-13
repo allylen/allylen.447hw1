@@ -1,0 +1,33 @@
+body {
+    background-image: url("hw1back2.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    color:beige;
+    text-align: center;
+}
+button {
+    background-color: rgb(24, 31, 66);
+    color: beige;
+    text-align: center;
+    border-radius: 12px;
+    transition-duration: 0.4ms;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -500%);
+}
+button:hover{
+    background-color: beige;
+    color:rgb(24, 31, 66);
+}
