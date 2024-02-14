@@ -52,3 +52,23 @@ button2:hover{
     background-color: beige;
     color:rgb(24, 31, 66);
 }
+.boat {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-150%, -50%);
+    width: 20%;
+    height: 40%;
+}
+.birb {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(200%, -50%);
+    width: 10%;
+    height: 20%;
+}
