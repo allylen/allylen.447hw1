@@ -10,6 +10,12 @@ h1 {
     color:rgb(24, 31, 66);
     text-align: center;
 }
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color:rgb(24, 31, 66);
+    text-align: center;
+}
 button {
     background-color: rgb(24, 31, 66);
     color: beige;
@@ -51,4 +57,12 @@ button2 {
 button2:hover{
     background-color: beige;
     color:rgb(24, 31, 66);
+}
+img {
+    width: 30%;
+    height: 30%;
+}
+img:onclick{
+    width: 10%;
+    height: 10%;
 }
